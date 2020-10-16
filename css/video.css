@@ -1,0 +1,35 @@
+body {
+    position: relative;
+}
+
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#info {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+.btn-voice {
+    width: 100px;
+    margin: 1px;
+}
+
+@media screen and (max-width:767px) {
+    #info {
+        width: 90vw;
+    }
+    .btn-voice {
+        width: 25vw;
+        font-size: 14px;
+    }
+}
